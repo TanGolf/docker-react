@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <input onChange = {handler} value = {input}/>
+        <input onChange = {handler} value = {input} placeholder = "Try typing something Pig"/>
         <p>
           Hi there, {input}
         </p>
